@@ -1,0 +1,45 @@
+body{
+    background-color: dimgray;
+    font-family: sans-serif;
+}
+/*both start*/
+.content{
+    width: 900px;
+    margin: auto;
+    background-color: aqua; /*removes after*/
+    display: flex;
+
+}
+h3{
+    font-size: 19px;
+}
+/*both end*/
+/*Summay start*/
+.summary{
+    background-color:darkblue ;
+    color: aliceblue;
+    width: 225px;
+    display: block;
+    padding: 1em;
+}
+
+.pfp{
+    border-radius: 100%;
+    width: 100px;
+    margin: auto;
+}
+
+/*summary end*/
+/*description start*/
+.description{
+    background-color: antiquewhite;
+    width:675px;
+    display: block;
+    padding: 1em;
+}
+
+.descr_h2{
+    text-align: center;
+    margin-top: 40px;
+}
+/*Description end*/

@@ -36,6 +36,11 @@ h3{
     display: block;
 }
 
+.summary h2, .summary h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
 /*summary end*/
 /*description start*/
 .description{

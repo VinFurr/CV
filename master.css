@@ -1,6 +1,7 @@
 body{
     background-color: dimgray;
     font-family: sans-serif;
+    margin: 0;
 }
 /*both start*/
 .content{
@@ -13,11 +14,16 @@ body{
 h3{
     font-size: 19px;
 }
+
+.hyperlink{
+    text-decoration: underline;
+    color: white;;
+}
 /*both end*/
 /*Summay start*/
 .summary{
     background-color:darkblue ;
-    color: aliceblue;
+    color: whitesmoke;
     width: 225px;
     display: block;
     padding: 1em;
@@ -25,14 +31,15 @@ h3{
 
 .pfp{
     border-radius: 100%;
-    width: 100px;
-    margin: auto;
+    width: 160px;
+    margin: 25px auto;
+    display: block;
 }
 
 /*summary end*/
 /*description start*/
 .description{
-    background-color: antiquewhite;
+    background-color:  whitesmoke;
     width:675px;
     display: block;
     padding: 1em;

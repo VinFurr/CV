@@ -7,7 +7,7 @@ body{
 .content{
     width: 900px;
     margin: auto;
-    background-color: aqua; /*removes after*/
+   /* background-color: aqua; /*removes after*/
     display: flex;
 
 }
@@ -22,11 +22,11 @@ h3{
 /*both end*/
 /*Summay start*/
 .summary{
-    background-color:darkblue ;
+    background-color:rgb(0, 75, 6) ;
     color: whitesmoke;
     width: 225px;
     display: block;
-    padding: 1em;
+    padding: 2em;
 }
 
 .pfp{
@@ -44,14 +44,33 @@ h3{
 /*summary end*/
 /*description start*/
 .description{
-    background-color:  whitesmoke;
+    background-color: rgb(244, 255, 243);
     width:675px;
     display: block;
-    padding: 1em;
+    padding: 50px;
+    color: rgb(0, 22, 68);
 }
 
 .descr_h2{
     text-align: center;
     margin-top: 40px;
+    text-decoration: underline;
+    width: 100%;
 }
+
+h3 span{
+    font-size: 12px;
+    display: block;
+    
+}
+
 /*Description end*/
+
+
+/*Easter eggs*/
+.pfp{
+    transition: transform 1s; /* For smooth transition */
+}
+.pfp:hover{
+    transform: rotate(360deg); /* Apply the rotation on hover */
+}

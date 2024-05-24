@@ -1,0 +1,52 @@
+body{
+    background-color: dimgray;
+    font-family: sans-serif;
+    margin: 0;
+}
+/*both start*/
+.content{
+    width: 900px;
+    margin: auto;
+    background-color: aqua; /*removes after*/
+    display: flex;
+
+}
+h3{
+    font-size: 19px;
+}
+
+.hyperlink{
+    text-decoration: underline;
+    color: white;;
+}
+/*both end*/
+/*Summay start*/
+.summary{
+    background-color:darkblue ;
+    color: whitesmoke;
+    width: 225px;
+    display: block;
+    padding: 1em;
+}
+
+.pfp{
+    border-radius: 100%;
+    width: 160px;
+    margin: 25px auto;
+    display: block;
+}
+
+/*summary end*/
+/*description start*/
+.description{
+    background-color:  whitesmoke;
+    width:675px;
+    display: block;
+    padding: 1em;
+}
+
+.descr_h2{
+    text-align: center;
+    margin-top: 40px;
+}
+/*Description end*/

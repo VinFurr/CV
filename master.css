@@ -91,6 +91,20 @@ hr{
     animation: slideUpDown 1s ease-in-out forwards;
 }
 
+/*toggle button*/
+.hidden {
+    display: none;
+}
+
+.expandable-section {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
 /*Description end*/
 /*other*/
 @font-face {

@@ -16,3 +16,22 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(element);
     });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const toggleButtons = document.querySelectorAll('.toggle-button');
+
+    toggleButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const extraContent = button.nextElementSibling;
+            if (extraContent.classList.contains('hidden')) {
+                extraContent.classList.remove('hidden');
+                button.textContent = "Close list";
+            } else {
+                extraContent.classList.add('hidden');
+                button.textContent = "Show completed courses";
+            }
+        });
+    });
+});

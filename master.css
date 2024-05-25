@@ -91,6 +91,11 @@ hr{
     animation: slideUpDown 1s ease-in-out forwards;
 }
 
+.extra-content a{
+    display: block;
+    margin-top: 7px;
+}
+
 /*toggle button*/
 .hidden {
     display: none;

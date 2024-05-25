@@ -44,7 +44,7 @@ h3{
 /*summary end*/
 /*description start*/
 .description{
-    background-color: rgb(244, 255, 243);
+    background-color: rgb(245, 250, 245);
     width:675px;
     display: block;
     padding: 50px;
@@ -55,6 +55,7 @@ h1{
     text-align: center;
     font-size: 5em;
     font-family: 'Sacramento', sans-serif;
+    animation: h1SlideIn 2s ease-in-out;
 }
 
 .descr_h2{
@@ -80,6 +81,16 @@ hr{
     color: lightgray;
 }
 
+.descrAnim {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.descrAnim.animate {
+    animation: slideUpDown 1s ease-in-out forwards;
+}
+
 /*Description end*/
 /*other*/
 @font-face {
@@ -88,6 +99,47 @@ hr{
     font-weight: normal;
     font-style: normal;
 }
+
+@keyframes h1SlideIn {
+    0% {
+        transform: translateX(-100%) skewX(-30deg);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(10%) skewX(-10deg);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0) skewX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideUpDown {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-10%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.contentAnim {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.contentAnim.animate {
+    animation: slideUpDown 1s ease-in-out forwards;
+}
+
 
 /*other ends*/
 /*Easter eggs*/

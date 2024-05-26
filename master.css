@@ -56,6 +56,13 @@ h1{
     font-size: 5em;
     font-family: 'Sacramento', sans-serif;
     animation: h1SlideIn 2s ease-in-out;
+    
+}
+/** Mozilla Firefox */
+@-moz-document url-prefix() {
+    h1{
+        letter-spacing: -1.5px;
+    }
 }
 
 .descr_h2{

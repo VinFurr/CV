@@ -6,24 +6,26 @@ const words = [
     "Furry",
     "Amateur developer",
     "Hobby pianist",
-    "Salesman"
+    "Sales & customer service"
 ];
 
 // Predefined list of background images (stored in the "images" folder)
 const images = [
-    "./images/image1.jpg",
-    "./images/image2.jpg",
-    "./images/image3.jpg",
-    "./images/image4.jpg",
-    "./images/image5.jpg",
-    "./images/image6.jpg",
-    "./images/image7.jpg"
+    "./images/IMG_20250617_143251.jpg", //salesman
+    "./images/image2.jpg",  //innovator
+    "./images/image3.jpg",  //electrical engineer
+    "./images/image4.jpg",   //volunteer
+    "./images/IMG_20230223_113047.jpg", //furry 
+    "./images/image6.jpg",  //amateur developer
+    "./images/image7.jpg"   //piano
 ];
 
 let currentIndex = 0;
 const headingElement = document.getElementById('dynamic-heading');
 const slide1 = document.getElementById('slide-1');
 const slide2 = document.getElementById('slide-2');
+
+
 
 function changeContent() {
     // Fade out the current text
@@ -56,6 +58,7 @@ function changeContent() {
         currentIndex = nextIndex;
     }, 500); // 500ms matches the CSS transition duration
 }
+
 
 // Set the initial background images
 slide1.style.backgroundImage = `url(${images[currentIndex]})`;

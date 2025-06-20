@@ -5,19 +5,19 @@ const words = [
     "Volunteer",
     "Furry",
     "Amateur developer",
-    "Hobby pianist",
-    "Sales & customer service"
+    "Sales & customer service",
+    "Hobby pianist"
 ];
 
 // Predefined list of background images (stored in the "images" folder)
 const images = [
-    "./images/IMG_20250617_143251.jpg", //salesman
+    "./images/piano.jpg",   //piano
     "./images/image2.jpg",  //innovator
-    "./images/image3.jpg",  //electrical engineer
-    "./images/image4.jpg",   //volunteer
+    "./images/engineer.jpg",  //electrical engineer
+    "./images/frivillig.jpg",   //volunteer
     "./images/IMG_20230223_113047.jpg", //furry 
     "./images/image6.jpg",  //amateur developer
-    "./images/image7.jpg"   //piano
+    "./images/IMG_20250617_143251.jpg", //salesman
 ];
 
 let currentIndex = 0;

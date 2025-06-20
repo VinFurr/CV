@@ -12,11 +12,11 @@ const words = [
 // Predefined list of background images (stored in the "images" folder)
 const images = [
     "./images/piano.jpg",   //piano
-    "./images/image2.jpg",  //innovator
+    "./images/innovation.jpg",  //innovator
     "./images/engineer.jpg",  //electrical engineer
     "./images/frivillig.jpg",   //volunteer
     "./images/IMG_20230223_113047.jpg", //furry 
-    "./images/image6.jpg",  //amateur developer
+    "./images/code.jpg",  //amateur developer
     "./images/IMG_20250617_143251.jpg", //salesman
 ];
 

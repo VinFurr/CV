@@ -138,10 +138,11 @@ body {
 }
 
 h1  {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: white;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
+    text-shadow: 2px 2px 4px black;
 }
 h2 {
     opacity: 1;

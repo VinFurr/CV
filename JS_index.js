@@ -69,9 +69,3 @@ changeContent();
 
 // Change the content every 3 seconds (3000 milliseconds)
 setInterval(changeContent, 3000);
-
-// Toggle Navigation for Mobile
-function toggleNav() {
-    const navLinks = document.getElementById('nav-links');
-    navLinks.classList.toggle('active');
-}
